@@ -1,13 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portifólio - Refatorando</title>
-        <link rel="icon" href="public/images/logo-refatorando.png" type="image/x-icon">
-        <link rel="stylesheet" href="public/css/styles.css">
-    </head>
-    <body>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Refatorando</title>
+    <link rel="icon" href="public/images/logo-refatorando.png" type="image/x-icon">
+    <link rel="stylesheet" href="public/css/styles.css">
+</head>
 
-    </body>
+<body>
+    <div id="container">
+
+        <header id="header">
+            <img src="./public/images/logo-refatorando.png" alt="logo-refatorando" height="40">
+
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#habilidades">HABILIDADES</a></li>
+                    <li><a href="#sobre">SOBRE</a></li>
+                    <li><a href="#projetos">PROJETOS</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+                <img id="menu-hambueger" src="./public/images/icon-menu.svg" width="40">
+            </nav>
+        </header>
+
+        <div id="banner">
+            <div id="banner-shadow"></div>
+            <h1>João Silva</h1>
+        </div>
+
+        <div id="info">
+            <div id="sobre">
+                <div class="title">Sobre Mim</div>
+
+                <p>Sou um desenvolvedor Fullstack com habilidades abrangentes em desenvolvimento web fullstack.</p>
+                <p>Com mais de 10 anos de experiência já trabalhei em empresas como Empresa A, Empresa B e Empresa C.</p>
+                <p>Sou capaz de entregar projetos de alta qualidade que abrangem tanto o front-end quanto o back-end, garantindo excelência em todas as etapas do desenvolvimento.</p>
+
+                <div id="social">
+                    <a href="#"><img src="./public/images/icon-github.png" alt="GitHub"></a>
+                    <a href="#"><img src="./public/images/icon-linkedin.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="./public/images/icon-instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+
+            <div id="habilidades">
+                <div id="resumo" >
+                    <h3>Desenvolvedor Fullstack</h3>
+                    <p>Com expertise Fullstack, proporciono projetos de alta qualidade, abrangendo front-end e back-end.</p>
+                    <a href="#contato">Entrar em Contato</a>
+                </div>
+                <h3>Habilidades</h3>
+                <div class="tecnologias">
+                    <img src="./public/images/icon-html5.png" alt="icon-html5">
+                    <div>
+                        <span>HTML</span>
+                        <div class="bar">
+                            <div style= " width:90%;"></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="tecnologias">
+                    <img src="./public/images/icon-css3.png" alt="icon-css3">
+                    <div>
+                        <span>CSS</span>
+                        <div class="bar">
+                            <div style= " width:80%;"></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="tecnologias">
+                    <img src="./public/images/icon-javascript.png" alt="icon-javascript">
+                    <div>
+                        <span>JAVASCRIPT</span>
+                        <div class="bar">
+                            <div style= " width:95%;"></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="tecnologias">
+                    <img src="./public/images/icon-git.png" alt="icon-git">
+                    <div>
+                        <span>Git & GitHub</span>
+                        <div class="bar">
+                            <div style= " width:60%;"></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="tecnologias">
+                    <img src="./public/images/icon-typescript.png" alt="icon-typescript">
+                    <div>
+                        <span>Typescript </span>
+                        <div class="bar">
+                            <div style= " width:80%;"></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="tecnologias">
+                    <img src="./public/images/icon-tailwind.png" alt="icon-tailwind">
+                    <div>
+                        <span>Tailwind </span>
+                        <div class="bar">
+                            <div style= " width:45%;"></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="tecnologias">
+                    <img src="./public/images/icon-node.png" alt="icon-node">
+                    <div>
+                        <span>Node.js </span>
+                        <div class="bar">
+                        <div style= " width:95%;"></div>
+                    </div>
+                </div>           
+            </div>
+        </div>
+    </div>
+    <div id="projetos">
+        <div class="title">
+            projetos
+        </div>
+        <div id="galeria_projetos">
+
+           <a href="#"><img src="./public/images/projetos-login.png" alt="projetos login" /></a>
+
+           <a href="#"><img src="./public/images/projetos-todo-List.png" alt="projetos todo List" /></a>
+
+           <a href="#"><img src="./public/images/projetos-nft.png" alt="projetos marketiplace nft" /></a>
+
+           <a href="#"><img src="./public/images/projetos-agendamento.png" alt="projetos agendamento de mentoria" /></a>
+
+           <a href="#"><img src="./public/images/projetos-plataforma.png" alt="projetos plataforma lms" /></a>
+
+           <a href="#"><img src="./public/images/projetos-ecommerce.png" alt="projetos-ecommerce" /></a>
+
+
+        </div>
+    </div>  
+    <div id="contato">
+        <div class="title">Contato</div>
+        <div id="container_formulario">
+            <div>
+                <h4>Envia Mensagem:</h4>
+               <form>
+                    <input type="text" placeholder="Nome*"/>
+                    <input type="text" placeholder="Número do celular"/>
+                    <input type="text" placeholder="E-mail*"/>
+                    <textarea placeholder="Mensagem"></textarea>
+
+                    <div>
+                     <input type="submit" value="Envia Mensagem" />
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>   
+</body>
 </html>
+
+
+
+
